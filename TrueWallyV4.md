@@ -11,12 +11,12 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoH
 
 ## Creating a Wally UI V4 Window
 ```lua
-local rileyTab = library:CreateWindow("Auto Farm");
+local autoFarmTab = library:CreateWindow("Auto Farm");
 ```
 
 ## Creating a Toggle
 ```lua
-rileyTab:AddToggle({
+autoFarmTab:AddToggle({
 });
 ```
 
