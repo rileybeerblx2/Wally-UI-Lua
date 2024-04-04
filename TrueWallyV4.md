@@ -54,3 +54,8 @@ miscTab:AddButton({
     end;
 });
 ```
+
+## Required For The UI To Work
+```lua
+library:Init();
+```
